@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A70316702109F38300F81CC9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A703166F2109F38300F81CC9 /* main.c */; };
+		A745794D2110E70400A55BC1 /* CalcNum.c in Sources */ = {isa = PBXBuildFile; fileRef = A745794C2110E70400A55BC1 /* CalcNum.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A703166C2109F38300F81CC9 /* IFSUL-CalcNum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "IFSUL-CalcNum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A703166F2109F38300F81CC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A745794B2110E6EC00A55BC1 /* CalcNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcNum.h; sourceTree = "<group>"; };
+		A745794C2110E70400A55BC1 /* CalcNum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CalcNum.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A703166F2109F38300F81CC9 /* main.c */,
+				A745794B2110E6EC00A55BC1 /* CalcNum.h */,
+				A745794C2110E70400A55BC1 /* CalcNum.c */,
 			);
 			path = "IFSUL-CalcNum";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70316702109F38300F81CC9 /* main.c in Sources */,
+				A745794D2110E70400A55BC1 /* CalcNum.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
